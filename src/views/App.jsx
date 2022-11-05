@@ -5,6 +5,8 @@ import MyPlan from './sections/MyPlan';
 import Team from './sections/Team';
 import Footer from './sections/Footer';
 
+import './App.scss';
+
 function App() {
   return (
     <div className="App">
