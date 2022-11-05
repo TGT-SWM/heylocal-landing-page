@@ -13,6 +13,10 @@ function App() {
       <GNB />
       <Header />
       <div className="Features">
+        <div className="features-title">
+          <h1>Features</h1>
+          <p>현지야 주요 기능 소개</p>
+        </div>
         <TravelOn />
         <MyPlan />
       </div>
