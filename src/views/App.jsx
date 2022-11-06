@@ -5,16 +5,20 @@ import Header from './sections/Header';
 import Features from './sections/Features';
 import Team from './sections/Team';
 import Footer from './sections/Footer';
+import Divider from './components/Divider';
 
 function App() {
   return (
-    <Body className="App">
+    <>
       <GNB />
-      <Header />
-      <Features />
-      <Team />
+      <Body className="App">
+        <Header />
+        <Features />
+        <Team />
+      </Body>
+      <Divider />
       <Footer />
-    </Body>
+    </>
   );
 }
 
