@@ -11,11 +11,9 @@ function App() {
   return (
     <>
       <GNB />
-      <Body className="App">
-        <Header />
-        <Features />
-        <Team />
-      </Body>
+      <Header />
+      <Features />
+      <Team />
       <Divider />
       <Footer />
     </>

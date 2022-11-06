@@ -9,21 +9,17 @@ import institutionImg from '../../assets/images/logo-institution.png';
 function Team() {
   return (
     <div className="Team">
-      <TeamTitle />
       <TeamDesc />
       <AppDesc />
     </div>
   );
 }
 
-function TeamTitle() {
-  return <StyledTitle className="TeamTitle">Team</StyledTitle>;
-}
-
 function TeamDesc() {
   return (
     <Section className="TeamDesc">
       <div>
+        <StyledTitle className="TeamTitle">Team</StyledTitle>
         <img src={teamImg1} alt="teamImg1" />
       </div>
       <div>

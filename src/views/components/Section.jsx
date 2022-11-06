@@ -1,15 +1,28 @@
 import styled from 'styled-components';
 
-export const Section = styled.section`
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+export function Section({ color, children }) {
+  return (
+    <SectionContainer className="Section" color={color}>
+      <div className="SectionContent">{children}</div>
+    </SectionContainer>
+  );
+}
+
+const SectionContainer = styled.section`
   background-color: ${(props) => props.color ?? '#ffffff'};
 
-  @media (max-width: 1000px) {
-    flex-direction: column;
+  .SectionContent {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 1000px) {
+      flex-direction: column;
+    }
   }
 `;
 
