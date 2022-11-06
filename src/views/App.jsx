@@ -4,12 +4,11 @@ import TravelOn from './sections/TravelOn';
 import MyPlan from './sections/MyPlan';
 import Team from './sections/Team';
 import Footer from './sections/Footer';
-
-import './App.scss';
+import styled from 'styled-components';
 
 function App() {
   return (
-    <div className="App">
+    <Body className="App">
       <GNB />
       <Header />
       <div className="Features">
@@ -22,8 +21,29 @@ function App() {
       </div>
       <Team />
       <Footer />
-    </div>
+    </Body>
   );
 }
+
+const Body = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 1000px;
+  margin: 0 auto;
+
+  .features-title {
+    h1 {
+      font-family: 'SBAggroB';
+      font-size: 40px;
+    }
+    p {
+      font-family: 'Noto Sans KR';
+      font-size: 22px;
+      color: #797775;
+    }
+  }
+`;
 
 export default App;
