@@ -5,7 +5,7 @@ import qrcode from '../../assets/images/qrcode.jpg';
 
 function Header() {
   return (
-    <Section className="Header">
+    <Section className="Header" color="#faf7f2">
       <div>
         <SectionTitle>
           내 손 안의

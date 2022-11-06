@@ -8,10 +8,10 @@ import heartIcon from '../../assets/images/icon-heart.png';
 
 function MyPlan() {
   return (
-    <Section className="MyPlan">
+    <Section className="MyPlan" color="#ff9900">
       <div>
-        <SectionTitle>마이 플랜</SectionTitle>
-        <SectionDesc>
+        <SectionTitle color="#ffffff">마이 플랜</SectionTitle>
+        <SectionDesc color="#ffffff">
           여행지 추천을 받았다면, 이제 일정을 짤 차례
           <br />
           여행 일정을 편리하고, 똑똑하게 관리해보세요!

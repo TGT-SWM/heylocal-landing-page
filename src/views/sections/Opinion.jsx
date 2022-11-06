@@ -8,7 +8,7 @@ import bulbIcon from '../../assets/images/icon-bulb.png';
 
 function Opinion() {
   return (
-    <Section className="Opinion">
+    <Section className="Opinion" color="#faf7f2">
       <div>
         <img src={screenshot} alt="screenshot" />
       </div>
