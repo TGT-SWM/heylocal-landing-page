@@ -1,9 +1,10 @@
+import styled from 'styled-components';
+
 import { Section } from '../components/Section';
 
 import logo from '../../assets/images/footer-logo.png';
 import appStoreLogo from '../../assets/images/appstore.png';
 import googlePlayLogo from '../../assets/images/googleplay.png';
-import styled from 'styled-components';
 
 function Footer() {
   return (
@@ -42,6 +43,7 @@ function Footer() {
 const StyledFooter = styled.footer`
   max-width: 1000px;
   margin: 0 auto;
+  padding: 40px 0 100px;
 `;
 
 const StyledText = styled.p`

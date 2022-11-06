@@ -8,11 +8,11 @@ import bulbIcon from '../../assets/images/icon-bulb.png';
 
 function Opinion() {
   return (
-    <Section className="Opinion" color="#faf7f2">
+    <Section className="Opinion" color="#faf7f2" align="center">
       <div>
         <img src={screenshot} alt="screenshot" />
       </div>
-      <div>
+      <div style={{ maxWidth: 400 }}>
         <SectionTitle>여행 장소 공유</SectionTitle>
         <SectionDesc>
           현지인만 아는 숨겨진 공간이 있다면, 마음에 드는 여행지를 발견했다면 다른 유저들과

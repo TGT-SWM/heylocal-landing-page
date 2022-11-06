@@ -28,6 +28,7 @@ const GNBContainer = styled.div`
   width: 100%;
   height: 50px;
   background-color: white;
+  border-bottom: 1px solid #d9d9d9;
 `;
 
 const StyledNav = styled.nav`
@@ -37,6 +38,7 @@ const StyledNav = styled.nav`
   align-items: center;
 
   max-width: 1000px;
+  height: 50px;
   margin: 0 auto;
 
   @media (max-width: 1000px) {

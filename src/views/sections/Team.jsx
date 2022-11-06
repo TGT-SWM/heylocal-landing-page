@@ -5,13 +5,23 @@ import { Section } from '../components/Section';
 import teamImg1 from '../../assets/images/team-1.png';
 import teamImg2 from '../../assets/images/team-2.png';
 import institutionImg from '../../assets/images/logo-institution.png';
+import Divider from '../components/Divider';
 
 function Team() {
   return (
-    <div className="Team">
+    <div className="Team" style={{ paddingTop: 100, paddingBottom: 100 }}>
+      <TeamTitle />
       <TeamDesc />
       <AppDesc />
     </div>
+  );
+}
+
+function TeamTitle() {
+  return (
+    <Section>
+      <StyledTitle className="TeamTitle">Team</StyledTitle>
+    </Section>
   );
 }
 
@@ -19,10 +29,10 @@ function TeamDesc() {
   return (
     <Section className="TeamDesc">
       <div>
-        <StyledTitle className="TeamTitle">Team</StyledTitle>
         <img src={teamImg1} alt="teamImg1" />
       </div>
-      <div>
+      <div style={{ maxWidth: 400 }}>
+        <Divider />
         <StyledSubTitle>TGT팀을 소개해주세요!</StyledSubTitle>
         <StyledDesc style={{ color: '#464749' }}>멤버 : 우태균, 최정인, 신우진</StyledDesc>
         <StyledDesc>
@@ -40,12 +50,13 @@ function TeamDesc() {
 
 function AppDesc() {
   return (
-    <Section className="AppDesc">
+    <Section className="AppDesc" paddingTop="40px">
       <div>
         <img src={teamImg2} alt="teamImg2" />
       </div>
-      <div>
+      <div style={{ maxWidth: 400 }}>
         <div>
+          <Divider />
           <StyledSubTitle>현지야는 어떤 어플인가요?</StyledSubTitle>
           <StyledDesc>
             여행 일정을 세우는데 어려움을 느꼈습니다. 여행지를 찾고, 맛집을 찾는 수고로움. 선정된

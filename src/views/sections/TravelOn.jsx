@@ -8,7 +8,7 @@ import peopleIcon from '../../assets/images/icon-people.png';
 
 function TravelOn() {
   return (
-    <Section className="TravelOn">
+    <Section className="TravelOn" align="center">
       <div>
         <SectionTitle>여행 On</SectionTitle>
         <SectionDesc>

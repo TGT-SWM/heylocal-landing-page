@@ -8,7 +8,7 @@ import heartIcon from '../../assets/images/icon-heart.png';
 
 function MyPlan() {
   return (
-    <Section className="MyPlan" color="#ff9900">
+    <Section className="MyPlan" color="#ff9900" align="center">
       <div>
         <SectionTitle color="#ffffff">마이 플랜</SectionTitle>
         <SectionDesc color="#ffffff">

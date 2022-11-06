@@ -11,9 +11,11 @@ function App() {
   return (
     <>
       <GNB />
-      <Header />
-      <Features />
-      <Team />
+      <Body>
+        <Header />
+        <Features />
+        <Team />
+      </Body>
       <Divider />
       <Footer />
     </>
@@ -21,12 +23,6 @@ function App() {
 }
 
 const Body = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  max-width: 1000px;
-  margin: 0 auto;
   padding-top: 50px;
 `;
 

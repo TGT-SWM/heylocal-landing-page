@@ -5,7 +5,7 @@ import qrcode from '../../assets/images/qrcode.jpg';
 
 function Header() {
   return (
-    <Section className="Header" color="#faf7f2">
+    <Section className="Header" color="#faf7f2" paddingTop="100px" align="center">
       <div>
         <SectionTitle>
           내 손 안의
@@ -19,7 +19,7 @@ function Header() {
           <br />
           당신의 여행에 현지야가 함께합니다.
         </SectionDesc>
-        <img src={qrcode} alt="qrcode" width="160" />
+        <img src={qrcode} alt="qrcode" width="160" style={{ paddingTop: 50 }} />
       </div>
       <div>
         <img src={screenshot} alt="screenshot" />

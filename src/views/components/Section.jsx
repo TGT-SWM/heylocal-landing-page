@@ -1,15 +1,24 @@
 import styled from 'styled-components';
 
-export function Section({ color, children }) {
+export function Section({ color, paddingTop, paddingBottom, align, children }) {
   return (
-    <SectionContainer className="Section" color={color}>
+    <SectionContainer
+      className="Section"
+      color={color}
+      paddingTop={paddingTop}
+      paddingBottom={paddingBottom}
+      align={align}
+    >
       <div className="SectionContent">{children}</div>
     </SectionContainer>
   );
 }
 
 const SectionContainer = styled.section`
+  width: 100%;
   background-color: ${(props) => props.color ?? '#ffffff'};
+  padding-top: ${(props) => props.paddingTop ?? '0px'};
+  padding-bottom: ${(props) => props.paddingBottom ?? '0px'};
 
   .SectionContent {
     max-width: 1000px;
@@ -18,7 +27,7 @@ const SectionContainer = styled.section`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: ${(props) => props.align ?? 'flex-start'};
 
     @media (max-width: 1000px) {
       flex-direction: column;
