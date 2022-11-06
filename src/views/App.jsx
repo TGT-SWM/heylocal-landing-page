@@ -29,6 +29,7 @@ const Body = styled.div`
 
   max-width: 1000px;
   margin: 0 auto;
+  padding-top: 50px;
 `;
 
 export default App;
