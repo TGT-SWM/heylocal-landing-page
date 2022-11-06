@@ -1,6 +1,7 @@
 import { Section, SectionTitle, SectionDesc } from '../components/Section';
 
 import screenshot from '../../assets/images/screenshot-header.png';
+import qrcode from '../../assets/images/qrcode.jpg';
 
 function Header() {
   return (
@@ -18,6 +19,7 @@ function Header() {
           <br />
           당신의 여행에 현지야가 함께합니다.
         </SectionDesc>
+        <img src={qrcode} alt="qrcode" width="160" />
       </div>
       <div>
         <img src={screenshot} alt="screenshot" />
