@@ -65,7 +65,7 @@ export const SectionDesc = styled.p`
 `;
 
 export const SectionImage = styled.img`
-  width: 70%;
+  width: 60%;
   vertical-align: middle;
   margin-left: 15px;
   margin-right: 15px;
