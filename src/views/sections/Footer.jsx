@@ -32,9 +32,9 @@ function Footer() {
             <StyledLink>
               <img src={appStoreLogo} alt="appStoreLogo" />
             </StyledLink>
-            <StyledLink>
+            {/*<StyledLink>
               <img src={googlePlayLogo} alt="googlePlayLogo" />
-            </StyledLink>
+            </StyledLink>*/}
           </span>
         </div>
       </Section>
