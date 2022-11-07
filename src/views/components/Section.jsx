@@ -63,4 +63,5 @@ export const SectionDesc = styled.p`
 
 export const SectionImage = styled.img`
   width: 100%;
+  vertical-align: middle;
 `;
