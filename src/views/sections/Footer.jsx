@@ -9,11 +9,9 @@ import googlePlayLogo from '../../assets/images/googleplay.png';
 function Footer() {
   return (
     <StyledFooter className="Footer">
-      <div>
-        <img src={logo} alt="logo" />
-      </div>
       <Section>
         <div>
+          <img src={logo} alt="logo" />
           <StyledText style={{ color: '#757679' }}>
             Software Maestro, Team TGT
             <br />
@@ -21,21 +19,25 @@ function Footer() {
             <br />
             문의 : tgt.heylocal@gmail.com
           </StyledText>
+          <span>
+            <StyledLink href="#">제휴·광고 문의</StyledLink>
+            <StyledLink style={{ color: '#ff9900' }} href="#">
+              개인정보 처리방침
+            </StyledLink>
+          </span>
         </div>
         <div>
-          <StyledText>현지야 앱 다운로드</StyledText>
+          <StyledText style={{ fontWeight: '500' }}>현지야 앱 다운로드</StyledText>
           <span>
-            <img src={appStoreLogo} alt="appStoreLogo" />
-            <img src={googlePlayLogo} alt="googlePlayLogo" />
+            <StyledLink>
+              <img src={appStoreLogo} alt="appStoreLogo" />
+            </StyledLink>
+            <StyledLink>
+              <img src={googlePlayLogo} alt="googlePlayLogo" />
+            </StyledLink>
           </span>
         </div>
       </Section>
-      <span>
-        <StyledLink href="#">제휴·광고 문의</StyledLink>
-        <StyledLink style={{ color: '#ff9900' }} href="#">
-          개인정보 처리방침
-        </StyledLink>
-      </span>
     </StyledFooter>
   );
 }
@@ -57,6 +59,7 @@ const StyledLink = styled.a`
   font-size: 16px;
   color: #111111;
   text-decoration: none;
+  margin-right: 10px;
 `;
 
 export default Footer;
