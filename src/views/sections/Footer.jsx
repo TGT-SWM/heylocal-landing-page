@@ -20,8 +20,11 @@ function Footer() {
             문의 : tgt.heylocal@gmail.com
           </StyledText>
           <span>
-            <StyledLink href="#">제휴·광고 문의</StyledLink>
-            <StyledLink style={{ color: '#ff9900' }} href="#">
+            <StyledLink href="mailto:tgt.heylocal@gmail.com">제휴·광고 문의</StyledLink>
+            <StyledLink
+              style={{ color: '#ff9900' }}
+              href="https://striped-turnover-6ed.notion.site/d387fb450a0a44a3996ef31de5b8d82e"
+            >
               개인정보 처리방침
             </StyledLink>
           </span>
