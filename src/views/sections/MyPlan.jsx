@@ -1,4 +1,4 @@
-import { Section, SectionTitle, SectionDesc } from '../components/Section';
+import { Section, SectionTitle, SectionDesc, SectionImage } from '../components/Section';
 import { FeatureItem, FeatureList } from '../components/FeatureList';
 
 import screenshot from '../../assets/images/screenshot-myplan.png';
@@ -18,7 +18,7 @@ function MyPlan() {
         </SectionDesc>
         <FeatureList>
           <FeatureItem icon={addplaceIcon} color="#ffffff">
-            여행 On 장소 추가
+            장소 추가
           </FeatureItem>
           <FeatureItem icon={refreshIcon} color="#ffffff">
             최적 루트 정렬
@@ -29,7 +29,7 @@ function MyPlan() {
         </FeatureList>
       </div>
       <div>
-        <img src={screenshot} alt="screenshot" />
+        <SectionImage src={screenshot} alt="screenshot" />
       </div>
     </Section>
   );

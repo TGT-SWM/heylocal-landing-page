@@ -1,4 +1,4 @@
-import { Section, SectionTitle, SectionDesc } from '../components/Section';
+import { Section, SectionTitle, SectionDesc, SectionImage } from '../components/Section';
 
 import screenshot from '../../assets/images/screenshot-header.png';
 import qrcode from '../../assets/images/qrcode.jpg';
@@ -22,7 +22,7 @@ function Header() {
         <img src={qrcode} alt="qrcode" width="160" style={{ paddingTop: 50 }} />
       </div>
       <div>
-        <img src={screenshot} alt="screenshot" />
+        <SectionImage src={screenshot} alt="screenshot" />
       </div>
     </Section>
   );

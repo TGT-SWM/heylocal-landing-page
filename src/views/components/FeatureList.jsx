@@ -8,6 +8,10 @@ export const FeatureList = styled.ul`
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+
+  @media (max-width: 300px) {
+    flex-direction: column;
+  }
 `;
 
 export function FeatureItem({ icon, color, children }) {
@@ -42,5 +46,11 @@ const StyledDiv = styled.div`
     font-weight: medium;
     color: ${(props) => props.color ?? '#464749'};
     margin: 10px 0 0;
+    text-align: center;
+  }
+
+  @media (max-width: 300px) {
+    width: 100%;
+    margin: 10px 0;
   }
 `;

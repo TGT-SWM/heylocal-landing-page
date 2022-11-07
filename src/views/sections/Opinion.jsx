@@ -1,4 +1,4 @@
-import { Section, SectionTitle, SectionDesc } from '../components/Section';
+import { Section, SectionTitle, SectionDesc, SectionImage } from '../components/Section';
 import { FeatureItem, FeatureList } from '../components/FeatureList';
 
 import screenshot from '../../assets/images/screenshot-opinion.png';
@@ -10,7 +10,7 @@ function Opinion() {
   return (
     <Section className="Opinion" color="#faf7f2" align="center">
       <div>
-        <img src={screenshot} alt="screenshot" />
+        <SectionImage src={screenshot} alt="screenshot" />
       </div>
       <div style={{ maxWidth: 400 }}>
         <SectionTitle>여행 장소 공유</SectionTitle>

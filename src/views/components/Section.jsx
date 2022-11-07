@@ -48,3 +48,7 @@ export const SectionDesc = styled.p`
   font-weight: medium;
   color: ${(props) => props.color ?? '#000000'};
 `;
+
+export const SectionImage = styled.img`
+  width: 100%;
+`;

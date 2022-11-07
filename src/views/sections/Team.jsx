@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { Section } from '../components/Section';
+import { Section, SectionImage } from '../components/Section';
 
 import teamImg1 from '../../assets/images/team-1.png';
 import teamImg2 from '../../assets/images/team-2.png';
@@ -29,7 +29,7 @@ function TeamDesc() {
   return (
     <Section className="TeamDesc">
       <div>
-        <img src={teamImg1} alt="teamImg1" />
+        <SectionImage src={teamImg1} alt="teamImg1" />
       </div>
       <div style={{ maxWidth: 400 }}>
         <Divider />
@@ -52,7 +52,7 @@ function AppDesc() {
   return (
     <Section className="AppDesc" paddingTop="40px">
       <div>
-        <img src={teamImg2} alt="teamImg2" />
+        <SectionImage src={teamImg2} alt="teamImg2" />
       </div>
       <div style={{ maxWidth: 400 }}>
         <div>
@@ -77,7 +77,7 @@ function AppDesc() {
           <StyledDesc2>
             본 서비스는 소프트웨어 마에스트로(정보통신기획평가원)의 지원을 받아 개발되었습니다.
           </StyledDesc2>
-          <img src={institutionImg} alt="institutionImg" />
+          <SectionImage src={institutionImg} alt="institutionImg" />
         </div>
       </div>
     </Section>
