@@ -9,7 +9,7 @@ import Divider from '../components/Divider';
 
 function Team() {
   return (
-    <div className="Team" style={{ paddingTop: 100, paddingBottom: 100 }}>
+    <div id="about-us" className="Team" style={{ paddingTop: 100, paddingBottom: 100 }}>
       <TeamTitle />
       <TeamDesc />
       <AppDesc />

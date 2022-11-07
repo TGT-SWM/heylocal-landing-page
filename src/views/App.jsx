@@ -12,6 +12,7 @@ function App() {
     <>
       <GNB />
       <Body>
+        <div id="home" />
         <Header />
         <Features />
         <Team />

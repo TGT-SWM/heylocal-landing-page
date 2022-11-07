@@ -7,7 +7,7 @@ import Divider from '../components/Divider';
 
 function Features() {
   return (
-    <div className="Features">
+    <div id="features" className="Features">
       <StyledTitle>
         <h1>Features</h1>
         <p>현지야 주요 기능 소개</p>

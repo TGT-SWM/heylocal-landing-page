@@ -9,13 +9,13 @@ function GNB() {
         <img src={logo} alt="logo" height="40" />
         <StyledUl>
           <li>
-            <StyledLink>Home</StyledLink>
+            <StyledLink href="#home">Home</StyledLink>
           </li>
           <li>
-            <StyledLink>Features</StyledLink>
+            <StyledLink href="#features">Features</StyledLink>
           </li>
           <li>
-            <StyledLink>About Us</StyledLink>
+            <StyledLink href="#about-us">About Us</StyledLink>
           </li>
         </StyledUl>
       </StyledNav>
@@ -63,6 +63,7 @@ const StyledLink = styled.a`
   font-weight: medium;
   color: #797775;
   margin-left: 20px;
+  text-decoration: none;
 `;
 
 export default GNB;
