@@ -71,14 +71,20 @@ function AppDesc() {
           </StyledDesc>
           <StyledDesc>‘내 손안의 가이드’를 생각하며 개발했습니다.</StyledDesc>
         </div>
-        <div>
-          <StyledDesc2>
-            본 서비스는 소프트웨어 마에스트로(정보통신기획평가원)의 지원을 받아 개발되었습니다.
-          </StyledDesc2>
-          <SectionImage src={institutionImg} alt="institutionImg" />
-        </div>
+        <Institution />
       </div>
     </Section>
+  );
+}
+
+function Institution() {
+  return (
+    <div style={{ marginTop: 80 }}>
+      <StyledDesc2>
+        본 서비스는 소프트웨어 마에스트로(정보통신기획평가원)의 지원을 받아 개발되었습니다.
+      </StyledDesc2>
+      <SectionImage src={institutionImg} alt="institutionImg" />
+    </div>
   );
 }
 
