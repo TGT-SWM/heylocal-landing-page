@@ -21,9 +21,7 @@ function Header() {
         </SectionDesc>
         <img src={qrcode} alt="qrcode" width="160" style={{ paddingTop: 50, paddingBottom: 30 }} />
       </div>
-      <div>
-        <SectionImage src={screenshot} alt="screenshot" />
-      </div>
+      <SectionImage src={screenshot} alt="screenshot" />
     </Section>
   );
 }

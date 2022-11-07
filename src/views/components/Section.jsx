@@ -30,8 +30,8 @@ const SectionContainer = styled.section`
     align-items: ${(props) => props.align ?? 'flex-start'};
 
     & > div {
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 15px;
+      margin-right: 15px;
     }
 
     @media (max-width: 1000px) {
@@ -42,6 +42,9 @@ const SectionContainer = styled.section`
       & > div {
         width: 100%;
         margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
       }
     }
   }
@@ -62,6 +65,13 @@ export const SectionDesc = styled.p`
 `;
 
 export const SectionImage = styled.img`
-  width: 100%;
+  width: 70%;
   vertical-align: middle;
+  margin-left: 15px;
+  margin-right: 15px;
+
+  @media (max-width: 1000px) {
+    max-width: 420px;
+    margin: 0 auto;
+  }
 `;

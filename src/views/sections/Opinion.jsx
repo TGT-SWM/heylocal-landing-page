@@ -9,9 +9,7 @@ import bulbIcon from '../../assets/images/icon-bulb.png';
 function Opinion() {
   return (
     <Section className="Opinion" color="#faf7f2" align="center">
-      <div>
-        <SectionImage src={screenshot} alt="screenshot" />
-      </div>
+      <SectionImage src={screenshot} alt="screenshot" />
       <div style={{ maxWidth: 400 }}>
         <SectionTitle>여행 장소 공유</SectionTitle>
         <SectionDesc>

@@ -28,9 +28,7 @@ function MyPlan() {
           </FeatureItem>
         </FeatureList>
       </div>
-      <div>
-        <SectionImage src={screenshot} alt="screenshot" />
-      </div>
+      <SectionImage src={screenshot} alt="screenshot" />
     </Section>
   );
 }

@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const FeatureList = styled.ul`
   list-style: none;
+  margin-top: 30px;
   padding-left: 0;
 
   display: flex;
@@ -9,8 +10,12 @@ export const FeatureList = styled.ul`
   justify-content: flex-start;
   align-items: center;
 
-  @media (max-width: 320px) {
+  @media (max-width: 350px) {
     flex-direction: column;
+  }
+
+  @media (max-width: 1000px) {
+    justify-content: center;
   }
 `;
 
@@ -27,7 +32,8 @@ const StyledDiv = styled.div`
   width: 100px;
   border: 1px solid ${(props) => props.color ?? '#797775'};
   border-radius: 10px;
-  margin-right: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
   padding: 20px 0;
 
   display: flex;
@@ -49,7 +55,7 @@ const StyledDiv = styled.div`
     text-align: center;
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: 350px) {
     width: 100%;
     margin: 10px 0;
   }

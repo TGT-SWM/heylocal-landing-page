@@ -20,7 +20,9 @@ function Team() {
 function TeamTitle() {
   return (
     <Section>
-      <StyledTitle className="TeamTitle">Team</StyledTitle>
+      <div>
+        <StyledTitle className="TeamTitle">Team</StyledTitle>
+      </div>
     </Section>
   );
 }
@@ -28,9 +30,7 @@ function TeamTitle() {
 function TeamDesc() {
   return (
     <Section className="TeamDesc">
-      <div>
-        <SectionImage src={teamImg1} alt="teamImg1" />
-      </div>
+      <SectionImage src={teamImg1} alt="teamImg1" />
       <div style={{ maxWidth: 400 }}>
         <Divider />
         <StyledSubTitle>TGT팀을 소개해주세요!</StyledSubTitle>
@@ -51,9 +51,7 @@ function TeamDesc() {
 function AppDesc() {
   return (
     <Section className="AppDesc" paddingTop="40px">
-      <div>
-        <SectionImage src={teamImg2} alt="teamImg2" />
-      </div>
+      <SectionImage src={teamImg2} alt="teamImg2" />
       <div style={{ maxWidth: 400 }}>
         <div>
           <Divider />

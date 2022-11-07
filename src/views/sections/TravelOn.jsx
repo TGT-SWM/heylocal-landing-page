@@ -22,9 +22,7 @@ function TravelOn() {
           <FeatureItem icon={peopleIcon}>동행자</FeatureItem>
         </FeatureList>
       </div>
-      <div>
-        <SectionImage src={screenshot} alt="screenshot" />
-      </div>
+      <SectionImage src={screenshot} alt="screenshot" />
     </Section>
   );
 }
