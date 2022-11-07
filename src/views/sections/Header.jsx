@@ -19,7 +19,7 @@ function Header() {
           <br />
           당신의 여행에 현지야가 함께합니다.
         </SectionDesc>
-        <img src={qrcode} alt="qrcode" width="160" style={{ paddingTop: 50 }} />
+        <img src={qrcode} alt="qrcode" width="160" style={{ paddingTop: 50, paddingBottom: 30 }} />
       </div>
       <div>
         <SectionImage src={screenshot} alt="screenshot" />

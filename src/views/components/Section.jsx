@@ -29,8 +29,20 @@ const SectionContainer = styled.section`
     justify-content: space-between;
     align-items: ${(props) => props.align ?? 'flex-start'};
 
+    & > div {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     @media (max-width: 1000px) {
       flex-direction: column;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      & > div {
+        width: 100%;
+        margin-bottom: 20px;
+      }
     }
   }
 `;
