@@ -26,7 +26,6 @@ function GNB() {
 const GNBContainer = styled.div`
   position: fixed;
   width: 100%;
-  height: 50px;
   background-color: white;
   border-bottom: 1px solid #d9d9d9;
 `;
@@ -38,8 +37,12 @@ const StyledNav = styled.nav`
   align-items: center;
 
   max-width: 1000px;
-  height: 50px;
   margin: 0 auto;
+
+  @media (max-width: 320px) {
+    flex-direction: column;
+    padding-top: 10px;
+  }
 
   @media (max-width: 1000px) {
     padding-left: 20px;

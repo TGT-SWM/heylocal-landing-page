@@ -9,7 +9,7 @@ export const FeatureList = styled.ul`
   justify-content: flex-start;
   align-items: center;
 
-  @media (max-width: 300px) {
+  @media (max-width: 320px) {
     flex-direction: column;
   }
 `;
@@ -49,7 +49,7 @@ const StyledDiv = styled.div`
     text-align: center;
   }
 
-  @media (max-width: 300px) {
+  @media (max-width: 320px) {
     width: 100%;
     margin: 10px 0;
   }
