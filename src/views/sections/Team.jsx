@@ -69,7 +69,7 @@ function AppDesc() {
             피드백을 받을 수 있고, 이동거리가 짧은 효율적인 여행 코스로 정렬하는 기능 등을 갖추고
             있습니다.
           </StyledDesc>
-          <StyledDesc>‘내 손안의 가이드’를 생각하며 개발했습니다.</StyledDesc>
+          <StyledDesc>‘내 손안의 여행 길잡이’를 생각하며 개발했습니다.</StyledDesc>
         </div>
         <Institution />
       </div>
