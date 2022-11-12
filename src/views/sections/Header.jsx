@@ -10,7 +10,7 @@ function Header() {
         <SectionTitle>
           내 손 안의
           <br />
-          길잡이,
+          여행 길잡이,
           <br />
           현지야
         </SectionTitle>
