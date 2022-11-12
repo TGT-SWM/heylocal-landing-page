@@ -22,7 +22,7 @@ function Footer() {
           <span>
             <StyledLink href="mailto:tgt.heylocal@gmail.com">제휴·광고 문의</StyledLink>
             <StyledLink href="https://striped-turnover-6ed.notion.site/16845b574f7e4511851f66ed89deda15">
-              아용약관
+              이용약관
             </StyledLink>
             <StyledLink
               style={{ color: '#ff9900' }}
