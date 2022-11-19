@@ -35,7 +35,7 @@ function Footer() {
         <div>
           <StyledText style={{ fontWeight: '500' }}>현지야 앱 다운로드</StyledText>
           <span>
-            <StyledLink>
+            <StyledLink href="https://apps.apple.com/kr/app/%ED%98%84%EC%A7%80%EC%95%BC-heylocal/id1642791139">
               <img src={appStoreLogo} alt="appStoreLogo" />
             </StyledLink>
             {/*<StyledLink>
